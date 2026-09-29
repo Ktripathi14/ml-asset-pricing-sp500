@@ -1,0 +1,6 @@
+pandas>=2.0   # if <2.2, month-end alias auto-falls-back to "M"
+numpy>=1.24
+scikit-learn>=1.3
+statsmodels>=0.14
+pyarrow>=12.0
+matplotlib>=3.7
