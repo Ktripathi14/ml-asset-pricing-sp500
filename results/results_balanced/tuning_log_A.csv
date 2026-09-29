@@ -1,0 +1,18 @@
+model,params,val_IC
+LASSO,alpha=1e-06,0.00737695825426688
+LASSO,alpha=3e-06,0.006588266048485227
+LASSO,alpha=1e-05,-8.702121169222221e-06
+LASSO,alpha=3e-05,-0.000293677889415138
+LASSO,alpha=0.0001,-0.001897032340648645
+LASSO,alpha=0.0003,-0.009551387793242548
+LASSO,alpha=0.001,-0.0012515585375967976
+LASSO,alpha=0.01,-inf
+LASSO,alpha=0.1,-inf
+RF,"{'n_estimators': 300, 'max_depth': 3, 'max_features': 'sqrt'}",-0.0015341762738558331
+RF,"{'n_estimators': 300, 'max_depth': 6, 'max_features': 'sqrt'}",-0.0030600001081126085
+SVM,"kernel=linear,{'C': 1, 'epsilon': 0.1}",0.012234686523587661
+SVM,"kernel=rbf,{'C': 1, 'gamma': 'scale', 'epsilon': 0.1}",-0.00024371233556201162
+SVM,"kernel=rbf,{'C': 10, 'gamma': 'scale', 'epsilon': 0.1}",-0.0073996315702849
+SVM,"kernel=poly,{'C': 1, 'gamma': 'scale', 'degree': 2, 'epsilon': 0.1}",0.0036377999626941693
+NN,"{'hidden_layer_sizes': (32,), 'alpha': 0.001, 'max_iter': 300}",-0.018761651701079452
+NN,"{'hidden_layer_sizes': (32, 16), 'alpha': 0.001, 'max_iter': 300}",-0.007745568887077626
